@@ -45,6 +45,10 @@ class DataAugmentation:
                 if i == self.imgCount:
                     break
 
+# this class loads images, applies a threshold to get a binary image, 
+# finds the outline with the maximum area, crops the original image based on the outline, and resizes 
+# the cropped image to the desired size. Finally, save the cropped images in two different directories 
+# based on their content (negative or positive).
 class ImageCropper:
     def __init__(self, imgDim=224):
         self.imgDim = imgDim
