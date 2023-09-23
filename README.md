@@ -3,8 +3,9 @@ The repo contains the implementation of a project for the Data Science Lab in Bi
 
 Given the excellent results obtained in terms of accuracy, the second part of the project consisted of investigating how much these techniques are used as support of doctors in diagnosing asd, as well as investigating more generally, how research is moving in this area. The necessary data were acquired from pubmed and topic modeling and data visualization techniques were used to achieve this goal.
 
-Link to the original project that inspired this work: https://github.com/Mahmoud-Elbattah/Predicting_ASD
-Reference publications:
+Link to the original project that inspired this work: https://github.com/Mahmoud-Elbattah/Predicting_ASD  
+
+And reference publications:
 - Elbattah, M., Carette, R. ,Dequen, G., Guérin, J, & Cilia, F. (2019, July). Learning Clusters in Autism Spectrum Disorder: Image-Based Clustering of Eye-Tracking Scanpaths with Deep Autoencoder. In Proceedings of the 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). IEEE.
 https://ieeexplore.ieee.org/document/8856904
 - Carette, R., Elbattah, M., Dequen, G., Guérin, J, & Cilia, F. (2019, February). Learning to predict autism spectrum disorder based on the visual patterns of eye-tracking scanpaths. In Proceedings of the 12th International Conference on Health Informatics (HEALTHINF 2019).
