@@ -4,6 +4,13 @@ The repo contains the implementation of a project for the Data Science Lab in Bi
 Given the excellent results obtained in terms of accuracy, the second part of the project consisted of investigating how much these techniques are used as support of doctors in diagnosing asd, as well as investigating more generally, how research is moving in this area. The necessary data were acquired from pubmed and topic modeling and data visualization techniques were used to achieve this goal.
 
 Link to the original project that inspired this work: https://github.com/Mahmoud-Elbattah/Predicting_ASD
+Reference publications:
+- Elbattah, M., Carette, R. ,Dequen, G., Guérin, J, & Cilia, F. (2019, July). Learning Clusters in Autism Spectrum Disorder: Image-Based Clustering of Eye-Tracking Scanpaths with Deep Autoencoder. In Proceedings of the 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). IEEE.
+https://ieeexplore.ieee.org/document/8856904
+- Carette, R., Elbattah, M., Dequen, G., Guérin, J, & Cilia, F. (2019, February). Learning to predict autism spectrum disorder based on the visual patterns of eye-tracking scanpaths. In Proceedings of the 12th International Conference on Health Informatics (HEALTHINF 2019).
+https://www.researchgate.net/publication/331784416_Learning_to_Predict_Autism_Spectrum_Disorder_based_on_the_Visual_Patterns_of_Eye-tracking_Scanpaths
+- Carette, R., Elbattah, M., Dequen, G., Guérin J.L., & Cilia F. (2018, September). Visualization of eye-tracking patterns in autism spectrum disorder: method and dataset. In Proceedings of the 13th International Conference on Digital Information Management (ICDIM 2018).IEEE.
+https://ieeexplore.ieee.org/document/8846967
 
 ## CNN from scratch results
 - 92% of accuracy on test set achieved in the last training epoch
@@ -22,7 +29,7 @@ However, the attempt failed, as the 11 topics identified by BERT did not group t
 ![Immagine 2023-09-23 102404](https://github.com/GiacomoPracucci/detect-asd/assets/94844087/6f567a6a-3461-4bb3-9580-951a89578f79)
 
 ## Research trends
-Using as a reference what was cited in the original paper, which lists alternative or complementary support methodologies to eye tracking analysis, we counted how many publications each year contained the keywords associated with the methodologies and their frequency out of the total articles
+Using as a reference what was cited in the reference papers, which lists alternative or complementary support methodologies to eye tracking analysis, we counted how many publications each year contained the keywords associated with the methodologies and their frequency out of the total articles
 - Time series of the number of publications per year (3-year moving average)
 ![Immagine 2023-09-23 102834](https://github.com/GiacomoPracucci/detect-asd/assets/94844087/3caadbc2-85be-4045-b443-20c361399052)
 - Percentage of publications on topics of interest compared to the total
