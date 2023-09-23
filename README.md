@@ -24,7 +24,7 @@ https://ieeexplore.ieee.org/document/8846967
 ![Immagine 2023-09-23 101905](https://github.com/GiacomoPracucci/detect-asd/assets/94844087/4f91da21-53b4-4c7f-92f3-12edf2c23c35)
 
 ## berTopic results
-The initial idea was to perform a very general query on PubMed, to obtain a large number of documents on which to do TopicModeling using the BERTopic algorithm.
+The original idea was to perform a very general query on PubMed, to obtain a large number of documents on which to do TopicModeling using the BERTopic algorithm.
 The hope was that topics would be identified that represented various lines of research relating to the diagnosis on which we could then carry out our analysis.
 However, the attempt failed, as the 11 topics identified by BERT did not group together potential research fields of ASD diagnosis
 ![Immagine 2023-09-23 102404](https://github.com/GiacomoPracucci/detect-asd/assets/94844087/6f567a6a-3461-4bb3-9580-951a89578f79)
