@@ -9,7 +9,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-EMAIL = "giacomo.pracucci8@gmail.com"
+EMAIL = "mail"
 KEYWORDS = "(ASD OR autism) AND (eye-tracking OR eye_tracking OR scanpath OR scan-path)"
 OUTPUT_PATH = 'pubmedgenerale.csv'
 
